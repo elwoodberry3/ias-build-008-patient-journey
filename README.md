@@ -6,11 +6,14 @@
 ### Healthcare Operations & Medical Billing  
 Automates intake forms, AI-driven scheduling coordination, and conditional post-visit care reminders without front-desk involvement.  
 
-**Status:** `● ARCHITECTURE PREVIEW` (reference shell) · **Live reference:** TODO: add URL if a reference deployment is stood up
+**Status:** `● ARCHITECTURE PREVIEW` (reference shell)  
+**Live reference:** [Patient Journey Demo](https://ias-build-002-doc-intake.vercel.app/)
 
 The shared demo shell every IAS build deploys from. One config file per build drives the entire page — hero, honest status chip, architecture map, sample payload, and CTA. Clone it, fill `build.config.ts`, deploy to Vercel. Done.
 
-**Stack:** Next.js 14 (App Router, static export) · TypeScript · plain CSS on the IAS design token system · Vercel
+**Stack:**
+<img src="_assets/images/stack-001.png" alt="Application Stack">
+Next.js 14 (App Router, static export) · TypeScript · plain CSS on the IAS design token system · Vercel
 
 ---
 
