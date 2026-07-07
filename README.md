@@ -14,7 +14,8 @@ The shared demo shell every IAS build deploys from. One config file per build dr
 **DEV STACK**  
   
 ---
-<img src="_assets/images/stack-001.png" alt="Application Stack - Next.js 14 (App Router, static export) · TypeScript · plain CSS on the IAS design token system · Vercel">
+<img src="_assets/images/stack-001.png" alt="Application Stack - Next.js 14 (App Router, static export) · TypeScript · plain CSS on the IAS design token system · Vercel">  
+
 ---
 
 ## License
