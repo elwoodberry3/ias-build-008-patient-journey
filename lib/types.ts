@@ -113,6 +113,22 @@ export interface Links {
   booking: string;
 }
 
+/**
+ * Article IX render hook — the mechanism that makes unknowns
+ * visible instead of silent. Components (Architecture, WhatItDoes,
+ * and any future section) call this on displayable strings; a
+ * match renders in the warning style so a TODO cannot ship
+ * unnoticed on a public page.
+ *
+ * Convention: unresolved values begin with "TODO:" (see the
+ * build.config.ts files). Matching is tolerant of leading
+ * whitespace and a missing colon, so a sloppy TODO still gets
+ * flagged rather than slipping through as normal copy.
+ */
+export function isTodo(value: string): boolean {
+  return /^\s*TODO\b/.test(value);
+}
+
 export interface BuildConfig {
   /** Zero-padded, e.g. "008" — display string, not arithmetic. */
   buildNumber: string;
