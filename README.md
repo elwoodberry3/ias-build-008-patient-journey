@@ -12,8 +12,8 @@ Automates intake forms, AI-driven scheduling coordination, and conditional post-
 The shared demo shell every IAS build deploys from. One config file per build drives the entire page — hero, honest status chip, architecture map, sample payload, and CTA. Clone it, fill `build.config.ts`, deploy to Vercel. Done.
 
 **DEV STACK**
-<img src="_assets/images/stack-001.png" alt="Application Stack">
-Next.js 14 (App Router, static export) · TypeScript · plain CSS on the IAS design token system · Vercel
+<img src="_assets/images/stack-001.png" alt="Application Stack - Next.js 14 (App Router, static export) · TypeScript · plain CSS on the IAS design token system · Vercel">
+
 
 ---
 
